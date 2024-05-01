@@ -1,5 +1,8 @@
 import './testimonials.css';
 import '../styles.css';
+import test1 from '../../assets/img/testimonials-1.jpg';
+import test2 from '../../assets/img/testimonials-2.jpg';
+import test3 from '../../assets/img/testimonials-3.jpg';
 
 export default function Testimonials() {
     return (
@@ -11,21 +14,21 @@ export default function Testimonials() {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img className="img-fluid rounded-circle mb-3" src="../src/assets/img/testimonials-1.jpg" alt="..." />
+                                <img className="img-fluid rounded-circle mb-3" src={test1} alt="..." />
                             <h5>Margaret E.</h5>
                             <p className="font-weight-light mb-0">&quot;This is fantastic! Thanks so much guys!&quot;</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img className="img-fluid rounded-circle mb-3" src="../src/assets/img/testimonials-2.jpg" alt="..." />
+                            <img className="img-fluid rounded-circle mb-3" src={test2} alt="..." />
                             <h5>Fred S.</h5>
                             <p className="font-weight-light mb-0">&quot;Bootstrap is amazing. I&apos;ve been using it to create lots of super nice landing pages.&quot;</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img className="img-fluid rounded-circle mb-3" src="../src/assets/img/testimonials-3.jpg" alt="..." />
+                            <img className="img-fluid rounded-circle mb-3" src={test3} alt="..." />
                             <h5>Sarah W.</h5>
                             <p className="font-weight-light mb-0">&quot;Thanks so much for making these free resources available to us!&quot;</p>
                         </div>

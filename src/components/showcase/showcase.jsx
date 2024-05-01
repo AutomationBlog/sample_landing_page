@@ -1,8 +1,8 @@
 import './showcase.css'
 import '../styles.css'
-const image1 = '../src/assets/img/bg-showcase-1.jpg';
-const image2 = '../src/assets/img/bg-showcase-2.jpg';
-const image3 = '../src/assets/img/bg-showcase-3.jpg';
+import image1 from '../../assets/img/bg-showcase-1.jpg';
+import image2 from '../../assets/img/bg-showcase-2.jpg';
+import image3 from '../../assets/img/bg-showcase-3.jpg';
 export default function Showcase() {
     return (
         <>

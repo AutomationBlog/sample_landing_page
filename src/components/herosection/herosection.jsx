@@ -1,10 +1,11 @@
 import './herosection.css'
 import '../styles.css'
+import image1 from '../../assets/img/bg-masthead.jpg';
 export default function HeroSection() {
     return (
         <>
             {/* <!-- Masthead--> */}
-        <header className="masthead">
+        <header className="masthead" style={{ backgroundImage: `url(${image1})`}}>
             <div className="container position-relative">
                 <div className="row justify-content-center">
                     <div className="col-xl-6">
